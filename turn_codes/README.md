@@ -5,3 +5,5 @@ The unit-level features should be saved with the name of (movie_name+".mp4"+"\_"
 I uploaded my denseflow CNN unit features (size 16, overlap 50%) to Google Drive: [val set](https://drive.google.com/file/d/1-6dmY_Uy-H19HxvfK_wUFQCYHmlPzwFx/view?usp=sharing), [test set](https://drive.google.com/file/d/1Qm9lIJQFm5s6hDSB_2k1tj8q2tnabflJ/view?usp=sharing).
 
 Once you have the unit-level features, edit the feature path in main.py, and then just run `python main.py`. Best model is expected to be trained in about 10000 steps with current training samples.
+
+The post\_processing.py in test\_results folder should be applied on the output test result file. After post processing, the pkl file can be evaluated by the eval program.
